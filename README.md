@@ -1,4 +1,4 @@
-# Unit Testing 
+# Unit Testing
 
 So, unit testing can be fun. Let's make it fun.
 
@@ -12,9 +12,10 @@ Next, install mocha globally (or not, your preference). Mocha is a testing platf
 npm install mocha --global
 ```
 
-Now you're ready to cook with JS. Run the following to run all tests in your test folder: 
+Now you're ready to cook with JS. Run the following to run all tests in your test folder:
+
 ```
-~/projects/unit-tests(master) » mocha test                                                                                                                                                                                                          nitish@admins-MacBook-Pro-8
+    ~/projects/unit-tests(master) » mocha test
 
 
   Check key pages for 200s
@@ -31,7 +32,8 @@ Now you're ready to cook with JS. Run the following to run all tests in your tes
 
   9 passing (10s)
 ```
+
 Or you can target tests individually
 ```
-mocha test/testfile.js 
+mocha test/testfile.js
 ```
